@@ -1,0 +1,5 @@
+numeros = input('digite quaisquer numeros: ')
+print('os numeros sao {}'.format(numeros))
+numeros = sorted(numeros)
+print('o maior numero é: {}'.format(numeros[-1]), end=' ')
+print('o menor numero é: {}'.format(numeros[0]))

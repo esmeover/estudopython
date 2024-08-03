@@ -1,0 +1,8 @@
+nome = input('qual é o seu nome: ')
+print('o nome em maiusculo e minusculo sao:', nome.upper(), end=' e ')
+print(nome.lower())
+espaco = nome.split()
+junto = ''.join(espaco)
+print('o nome ao todo tem:', len(junto), 'letras')
+print('o nome primeiro nome tem:', len(espaco[0]), 'letras')
+print('o segundo nome tem:', len(espaco[1]), 'letras')
